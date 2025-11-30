@@ -181,6 +181,8 @@ set(OPUS_COMPILE_OPTIONS
     -O2
     -Wno-maybe-uninitialized
     -Wno-unused-variable
+    -Wno-stringop-overflow
+    -Wno-error
 )
 
 # 根据芯片类型添加特定选项
